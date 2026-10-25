@@ -666,12 +666,28 @@ button {
   margin: 0 0 16px;
 }
 
+
 .work-heading-text h1 {
+  color: var(--red, #e5282d);
   font-size: clamp(42px, 6vw, 76px);
   font-weight: 500;
   letter-spacing: -2px;
   line-height: 1.1;
   margin: 0 0 18px;
+}
+
+.work-heading-text h1 span {
+  color: var(--red, #e5282d);
+}
+
+
+/* Đổi màu H1 riêng cho trang Services */
+.services-page .work-heading h1 {
+  color: #e5282d;
+}
+
+.services-page .work-heading h1 span {
+  color: #e5282d;
 }
 
 .work-heading-text h1 span {
@@ -1452,7 +1468,10 @@ button {
   line-height: 1;
   margin-top: 30px;
 }
-
+/* Đổi màu tiêu đề WE ARE ACTION C trên banner About */
+.about-page .about-hero-layout h1 {
+  color: #e5282d !important;
+}
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .about-hero {
@@ -1507,4 +1526,5 @@ button {
     font-size: 48px;
     margin-top: 22px;
   }
+  
 }
